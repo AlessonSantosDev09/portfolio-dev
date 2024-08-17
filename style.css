@@ -330,7 +330,7 @@ section.formulario {
     padding: 80px 4%;
 }
 
-form {
+form, .obrigado-form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -496,4 +496,15 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
+}
+
+
+.obrigado-form{
+    color: #00FF08;
+    font-size: 30px;
+    text-align: center;
+}
+
+.obrigado-form, p{
+    font-size: 30px;
 }
